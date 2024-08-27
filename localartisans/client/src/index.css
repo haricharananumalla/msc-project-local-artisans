@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homebg{
+background-image: url(https://cdn.pixabay.com/photo/2021/11/15/05/25/boutique-6796399_1280.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+filter: grayscale(100%);
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
